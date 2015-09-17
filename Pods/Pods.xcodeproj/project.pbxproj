@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B3EC0285AD04E5269238AEA04E9820 /* PFResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 882E72B2573BA169C6923023FB7505AB /* PFResources.h */; };
+		088B7B907BF59F7B1B39C8F2618BA700 /* PFPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DBE42A8D8812F802084B0B4186C108 /* PFPurchase.h */; };
+		0C00D2320CDBE264D45EAA0F6752D3CE /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B63B30B03ADCC6EA11BFE94D44E71FA /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E6BB022DD70BC1DC79E7115268A36E6 /* PFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A970C2051BBA220414DE24FDB2D585 /* PFNetworkActivityIndicatorManager.h */; };
+		0F50CF7BDD27FE8199AB51DD57FA8F22 /* PFTwitterUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 011AD5709D4F6FF70CECD05E64CEEABB /* PFTwitterUtils.h */; };
+		10DFE47F4D37F7A6B4864C0A810C523F /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = F50A243919C812D9C642E0175EE68F58 /* BFCancellationToken.h */; };
+		11B20B9A187AC9F8BF0B8B55458BE6BD /* PFLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E172F3C24126F5F7825EEEC49F9B88 /* PFLoadingView.h */; };
+		1362C59E0A43D39C1122670F4B1B8E6E /* PFPrimaryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FC68F2A982D89B06CCBEA0EC221C1E2C /* PFPrimaryButton.h */; };
+		1627E1EF63B651299D57DE1696373D93 /* PFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E278FBBDEAD284A7D3D453B3D0FD4 /* PFColor.m */; };
+		18C11EF7F955499AB608ED9E9970E0C2 /* PFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2BC8D6879E38DA438CEA542039FD7 /* PFAlertView.m */; };
+		1979037FCBD65ED5017287DC2D41301B /* PFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1C6C96EA66918946EBD6F98274E20 /* PFTableViewCell.m */; };
+		1C47D89973A36D3CA3483CFF56C30C16 /* PFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E8027A14D6E5D5BFD55ABFD1601F0 /* PFImage.m */; };
+		21A42E6428CE5239BE0DF0952A2556EF /* PFLogInViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 737AA3ED708243FA4ADA8FFBC59FDFD9 /* PFLogInViewController.h */; };
+		2208BEAE3C01B541298F2C2611FF8AE2 /* PFSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B3FAB0420852FDC3ED0BE313A3EE0B /* PFSession.h */; };
+		22226587D07869A538559024FF68DD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */; };
+		2A6B4BC8B751638CDD8EDED6D7203634 /* PFRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = EACA9BB742F1617CDA9D04FB2A0A9573 /* PFRelation.h */; };
+		2A98933A06EB00B5781CE4D543F9B652 /* PFQueryCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 51979E4A0929E509BD52B30749E84685 /* PFQueryCollectionViewController.h */; };
+		2C3DF7F8C3CC971058EA2C8C6AEE658F /* PFAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = DA05EC3D049D639093A9FC034F74D2AD /* PFAnalytics.h */; };
+		2D63E5431564118651FDD76A0959852D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8F7A70B3A3A1833B0B0C058F1C5B34 /* QuartzCore.framework */; };
+		2F42EB3CB7D4E5D86067A5CD42CF8790 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8F7A70B3A3A1833B0B0C058F1C5B34 /* QuartzCore.framework */; };
+		301FF96F4837DFA15A92BC36A4D6172B /* PFActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 824F8C8F60684B4956F8BE45CE64358C /* PFActionButton.m */; };
+		318698457DC5326973F1187BDEC18BB1 /* PFGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 079CEC81217FDD14187B38EF11A4C7BA /* PFGeoPoint.h */; };
+		339A1B70CF4FEE1D0780CFDF33AB73D8 /* PFActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BB497D7F0C1EA2F75DFDCDE14906AD30 /* PFActionButton.h */; };
+		33B783D2867DBCB17FAB94D8B70E22D6 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D47A0031A8F925F02F30487073E46BB6 /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3873150245920AD365A40ABA60CE1622 /* PFImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA60635EE93D4306159FDE0EA05D0FBA /* PFImageView.h */; };
+		39773D2507DB4900C7FF617EF459FEA0 /* PFCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 261123B9AC1FCE6DFB69C4F83D2C4CA6 /* PFCloud.h */; };
+		4202DEF1B9A560EBDE329F9BA7E67CEA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A3426A63D8D118E2BE7FCAE79C800 /* SystemConfiguration.framework */; };
+		482239FEBAB5E6C473A3825939859C65 /* PFRole.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB982121B108C9E8F14E4A824DBD2A1 /* PFRole.h */; };
+		4C7DF999300DA0BAF0DEFB881E6AA317 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79964D98B039C5A1CA45F79446321F /* StoreKit.framework */; };
+		4F2EEFADB59CCB5CC7D58BCBB676C5F1 /* PFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C28A68F068065911D2B603A3781484 /* PFColor.h */; };
+		51682315063307E5E04C71D699EBDD36 /* PFPurchaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54784447963996CA7BC943B876246BEB /* PFPurchaseTableViewCell.m */; };
+		52D73198571D754AA6D3D92B0DE8091C /* PFQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E40FBD9E9F3390C9A043035DB6BDDF6 /* PFQueryTableViewController.m */; };
+		547B936ABB4F38BD8231A0B6CCA048ED /* PFUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A19E36E42C346AEE6DB54F89CD8BEC /* PFUser.h */; };
+		5917E23D89C778CBD5ABA62B2C554B6C /* PFRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BB3CBCFBF8AA48CE62F6DD0AC0B746 /* PFRect.m */; };
+		5CE4B89DFF35329E2A1DA0EE36153887 /* PFTextButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C81A9DC44BB6CA9CC47DA60B7DF2A8BE /* PFTextButton.h */; };
+		5D5B514ADE7A8A25E50BE4A4AAA9C89D /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8697D567AC96161039C96DC35082D09F /* BFCancellationTokenRegistration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5EF65F98614BC8E5FF2B244E21C02BC1 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A0F3F9CDF4CCA7F768E83480F9B2 /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F9C0707952131300B6054F3A9CB264A /* PFQueryTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D10CFA9CE3F57DCE5394ABB03BDB26B /* PFQueryTableViewController.h */; };
+		605AEAA13EDA2DC2583E7C5C0F2EBED5 /* PF_Twitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2E01A5997A33AF77EBB852E20D40DD /* PF_Twitter.h */; };
+		6261449B6F14E61F858B7FCD18F949FF /* PFLogInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A95B37A19F3F2974D5C0478D4ACBBB /* PFLogInView.m */; };
+		6688785A01C6BCF7EBC1B57F74510C66 /* PFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6222C08DFB2B7FF278B704F8E0EB2781 /* PFCollectionViewCell.m */; };
+		674E5BDF5B0BEC54F966C58778FE2D24 /* PFProductTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E54D6B2DE62573870B624F70E2E0E /* PFProductTableViewController.h */; };
+		6891ED19F7A4CBB3563996CBE511560F /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DF293D229617719D62E8D204133B3C /* BFExecutor.h */; };
+		6FCF3142D9E0ED82EF46E2D6C3F11AF6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676578FD7D5AA36475A3054700D00365 /* Pods-dummy.m */; };
+		769C6CAC4DCBC57DFD6CE3A2D038CE15 /* PFQueryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1964B3D6C47C0CF5903BBBE9155AA8C7 /* PFQueryCollectionViewController.m */; };
+		78589E357FEB8D61AFA594EC9978E51E /* PFConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 31972BA6D37716964875807B9791E49D /* PFConstants.h */; };
+		7A80BF127EB07399B7591858692FE2A2 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 82393442AD8E017C0926787730753D11 /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C53ACD5005575D435414EDDC6AA3EA2 /* PFAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A52610935F1689925F5F8A55DF7BD5 /* PFAlertView.h */; };
+		7CEFBE5A1C5C34BA897592CC5C5E234E /* PFRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C94819C17764157F1AFA17F68DE8EF0 /* PFRect.h */; };
+		81D7D9E06C9670422E5C6CB4FECE51C1 /* PFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD24C1BEF9EB62F6CDAE2E1D8FF4E883 /* PFLoadingView.m */; };
+		83582086D94C1192A8FE48E00D4D01B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682ED412FB7BD65245E5BBA241EFA14 /* CoreGraphics.framework */; };
+		8AA68EF8C8B6050B33E54673A441C4C5 /* PFDismissButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9176E50B709FB7C77069E62F77AEDA /* PFDismissButton.h */; };
+		8AE1043F5D7E547D00C414649BA71A55 /* PFActivityIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 756EFBE1112954F6110EA7B715A3CE59 /* PFActivityIndicatorTableViewCell.m */; };
+		908425D21A64071427C750080E6DB057 /* PFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FD00D4633BDACEDE456F8A59F0E15 /* PFImageCache.m */; };
+		90962BB570778980E7EE64213C03EEAD /* PFObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = C712E53C232937EC02D377CAD5B28AF4 /* PFObject+Subclass.h */; };
+		91BAFDD7E9D2A99B2D3E57D91DCB84A4 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 135CBA22F464C9331F34747146FE4C2E /* Bolts.h */; };
+		9600B79C344B88E24F20C6FF07A70B98 /* PFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C55D2DA6E84F4438C09D47735E458328 /* PFQuery.h */; };
+		9801A2B86439F4369F940E425508B4B0 /* PFResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E10D38F943D13045162CA49DFB26ABC0 /* PFResources.m */; };
+		993C12BBE12041911489E59725BCB7A0 /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F19FE2679DCFDEEEA764A40627FD9C6 /* BoltsVersion.h */; };
+		9E46011014F5364CF1B38F3193F6DDAA /* PFSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E9C4040A48097B765739A28A113FAC /* PFSubclassing.h */; };
+		9F5506BCA798D7102564461C1BC73861 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1682ED412FB7BD65245E5BBA241EFA14 /* CoreGraphics.framework */; };
+		A024909CE52E896DC6AEA031616969B9 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0B4662F7BEC287D08817E88FBC4A52 /* BFTaskCompletionSource.h */; };
+		A11ECE59B1F5CF01A2F352D72C31FC18 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A4D9FE8582DDBEEBD61BC6917CD710 /* CFNetwork.framework */; };
+		A185B321154A7164E6A8BC4F6211716A /* PFSignUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = B839B893A4B8DE832B68CF60ED6277DC /* PFSignUpView.h */; };
+		A1CC5E90350BD42EB3FDDA6BE4B90A95 /* PFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5516CFB660210FBF56FED9DFC80ED5C0 /* PFImage.h */; };
+		A5E63EEE0F6BB51E0C0AC9486E7153AE /* PFFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D6C1521ED239F7D8E53F64511DA6BF /* PFFile.h */; };
+		A606F5EF628CA066532DE702A38E3DB7 /* Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08177380F3F3A1A7A2475E004863C73A /* Bolts-dummy.m */; };
+		A6A7E79A97402AD5CE718AAC692841BD /* PFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9536F6A67F4804BF25375726F476D9E2 /* PFImageView.m */; };
+		A763AD3912F16D22D28EA6AAE7B7D87C /* ParseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED024CB9B89C30423AE92FB97099402 /* ParseUI.h */; };
+		A7C38333370D0690F3794B9A87F99DCE /* PFNullability.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFF4C59695AA83D0F2ABDFD29423639 /* PFNullability.h */; };
+		A87B10E197AD1A5F30F7640495A36FFB /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3028A1B2E2207FD38FC0C98A286DB6D6 /* BFCancellationTokenRegistration.h */; };
+		A93928FECC153CE325BF8B35842B19D5 /* PFPurchaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D04CAAC3FD920D852163C468909C28 /* PFPurchaseTableViewCell.h */; };
+		AAB19EC8489DB38E35B694404CE81256 /* PFDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C50BACC0DF6BED19C527B0EC9CD8D135 /* PFDismissButton.m */; };
+		ADF81D126EF53F98324A991F4A61544F /* PFConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBBEC099B5CDE8756B25B5C6BDDE05F /* PFConfig.h */; };
+		B102F0985DE4099C1EE114518D9B7D10 /* PFSignUpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F85182F7CB6197A21493DD2A0AD80D /* PFSignUpViewController.h */; };
+		B134A6F6168F3678A67D4115BBBBDBBC /* PFProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 733796BCCCD89A54BC3AECAB52E8DD0A /* PFProduct.h */; };
+		B1B8164F3147590FD32C651723A04AEC /* PFActivityIndicatorTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 61429F475AB3D907C0FA923F5161941A /* PFActivityIndicatorTableViewCell.h */; };
+		B50CE258FC7E66ED8392CC1B67A04A0B /* Parse.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B29E442D49F7150A24C5D6626D2967 /* Parse.h */; };
+		B693BF2C410BEC3EFE23C7005030FC1C /* PFLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9849F718327A6CE33684F89E3C3C522E /* PFLogInViewController.m */; };
+		B6F3FD14FEB89F09C57C0E3C36AD1D29 /* PFImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB76D4AE3CAAC9DA06ABAAC24303BF0 /* PFImageCache.h */; };
+		B7A4B107AE4617137F0F8D764911AFC4 /* PFCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D76C91E240A168CEF30966EC486714F /* PFCollectionViewCell.h */; };
+		B7A96E4B33368BD1EDDBBD7B3A378462 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B8E647EBE8F6E6D5DC28FA467D5BA7 /* CoreLocation.framework */; };
+		BC8E268D2E4DDCE3B9BE876469848078 /* PFInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6C36B3737832B932BCB24E60FBA426 /* PFInstallation.h */; };
+		BD3223B52B2DA388951AE52AFC2B2EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */; };
+		BDCE1800C726F3C710A80275A4BC5B77 /* PFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2AAA1E6118CAA76A210B937552AD66 /* PFObject.h */; };
+		BFB6B5A03CA4A14910431A12A995A9DF /* PFProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BD25FDC69542337B55CCF4D97CB5D8 /* PFProductTableViewController.m */; };
+		C1BA2785E6865EA4FC74D38479127C66 /* PFTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 682E4AA110701D9701F06EE02D39E3F6 /* PFTextButton.m */; };
+		C99C9FE3D42ECC093402EB74A2BF9903 /* ParseUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFC1FF786D727D184DE2045930E91D /* ParseUI-dummy.m */; };
+		CE6E82F7868356AD411B4BB422A54184 /* PFActivityIndicatorCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7419BBE4B6FBA16E5FC031F4D8307B18 /* PFActivityIndicatorCollectionReusableView.h */; };
+		CF33C48C38209F1C9F133A6C57A5195C /* PFTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5C2141ED93906D4527914A4BD0EEBE /* PFTableViewCell.h */; };
+		D36D1EFAB311C50323FB3D67F9375094 /* PFSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A4D515667787C34B75A2F854CAB050 /* PFSignUpView.m */; };
+		D445D5A2A8413D0BECCB2DFA36FE50DA /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B8E91911DAFFE8AD338E3B03822540 /* BFCancellationTokenSource.h */; };
+		D6B959844748AB918B3501E2A23F210E /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 760740BF413A3AA2D53EC6BB326AF09F /* BFCancellationTokenSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9B6650469DDE9A6ADB2BCC4159F0728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */; };
+		DC6F0AE0BD41C92B641AF0813C0ACAA9 /* PFACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF39C00E012AAB04BEAF58275965D13 /* PFACL.h */; };
+		DC8B2B13AF0448DC82B0CD374B19A7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */; };
+		DCC0B63649FEF688CFDFA1ADF62E4C3F /* PFLogInView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F4DA32EDCCC4816F64C5B97CBBD5FA /* PFLogInView.h */; };
+		DE95C135DDEAB8067A2BFD9A97BEF555 /* PFActivityIndicatorCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6C19FDE76CAD6DE11471F32367829 /* PFActivityIndicatorCollectionReusableView.m */; };
+		E870B9283AF2441E82559015782E5029 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F9779A8CC862557B16508E5F061CB322 /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E8AADA729D4A0ADF275161E000ABBAD7 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = FED2CF0182621DD43A1B1ABBA593C5C6 /* BFTask.h */; };
+		E94D745BB3138053485681273741F95E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D8A6718EC174A69327B4F83039B297 /* UIKit.framework */; };
+		E9CC5942747D004C8D62E0E036A715BA /* PFPush.h in Headers */ = {isa = PBXBuildFile; fileRef = F51C4B70C4EFB81F85425673FE1DB374 /* PFPush.h */; };
+		E9D44E77CBEC70BE5578B4641E2341A7 /* ParseUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C44E52E83B786124ADB97FD2E0085748 /* ParseUIConstants.h */; };
+		F037D0DB9821AD09EEE094D85F91DF63 /* PFTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF446936F95FE1CD63332E9F76827E7 /* PFTextField.h */; };
+		F2C0AE06CDE086C007446B94F58B1762 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2A58850F0831D58023B91AFD0D7F83 /* AudioToolbox.framework */; };
+		F3ADEBCE0A69AA133C84D6D1CB98E9AD /* Parse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE77B636EA5F02A7683C725599E42D96 /* Parse-dummy.m */; };
+		F8DC3C90C4DC119D1D038F08E7919FDE /* PFSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E577F958E78F4BE58EF1DEB94758A /* PFSignUpViewController.m */; };
+		F943B7E9514351C3584E8EDB5EC8BE0E /* PFPrimaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 735480EF3832E77E8D8CC22E897E3D95 /* PFPrimaryButton.m */; };
+		F981AD5FBDF6706D4B1BC7D6B1661823 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998C42CBB08F2BF4B0935D0F3FD59BE1 /* Security.framework */; };
+		FAF890D6533CC9B8E76DACE65CA51F31 /* PFLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C0C841F25194FC96C94F92CBCE66F4 /* PFLocalization.h */; };
+		FB4B66E8E0653494E358A786910C352F /* PFAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 091750532A12A4F233EA98A9430D5064 /* PFAnonymousUtils.h */; };
+		FE86AB16243DFB25070A4F8E91FDB65E /* PFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE45242DCC50152644B8ADEB0B55696 /* PFTextField.m */; };
+		FF999063F38B1E98717839B2972026EC /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7407638D786C4B4E7C3CFE5CECEF1 /* BFCancellationToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045FF2B0CCA185D99803009F38264D07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D21F38768A4507B1850D575992EF267;
+			remoteInfo = Parse;
+		};
+		4C41CB7FC9E1EE8CBD5957AC5081567A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EFAD85681CE706250735D61ABD1E0F;
+			remoteInfo = Bolts;
+		};
+		7F9966C28D7B41F49FFD247CDD62C31A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D21F38768A4507B1850D575992EF267;
+			remoteInfo = Parse;
+		};
+		D1374E36228A80C2E0BC563416A87D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730EF52DB92B102107B40694B6378AC0;
+			remoteInfo = ParseUI;
+		};
+		F6F189CE7A5817DCC152F42BB5A97949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EFAD85681CE706250735D61ABD1E0F;
+			remoteInfo = Bolts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011AD5709D4F6FF70CECD05E64CEEABB /* PFTwitterUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFTwitterUtils.h; sourceTree = "<group>"; };
+		0209A22CA5085E14867E0114D5C851A7 /* Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Bolts-Private.xcconfig"; sourceTree = "<group>"; };
+		033A3426A63D8D118E2BE7FCAE79C800 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		044FD00D4633BDACEDE456F8A59F0E15 /* PFImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImageCache.m; path = ParseUI/Classes/Internal/PFImageCache.m; sourceTree = "<group>"; };
+		079CEC81217FDD14187B38EF11A4C7BA /* PFGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFGeoPoint.h; sourceTree = "<group>"; };
+		08177380F3F3A1A7A2475E004863C73A /* Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bolts-dummy.m"; sourceTree = "<group>"; };
+		08C698FABC0FB69A273C361B9AA9C6E3 /* libParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libParse.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		091750532A12A4F233EA98A9430D5064 /* PFAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFAnonymousUtils.h; sourceTree = "<group>"; };
+		0B63B30B03ADCC6EA11BFE94D44E71FA /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
+		0CAFC1FF786D727D184DE2045930E91D /* ParseUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParseUI-dummy.m"; sourceTree = "<group>"; };
+		135CBA22F464C9331F34747146FE4C2E /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1682ED412FB7BD65245E5BBA241EFA14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1964B3D6C47C0CF5903BBBE9155AA8C7 /* PFQueryCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFQueryCollectionViewController.m; path = ParseUI/Classes/QueryCollectionViewController/PFQueryCollectionViewController.m; sourceTree = "<group>"; };
+		19A4D9FE8582DDBEEBD61BC6917CD710 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		261123B9AC1FCE6DFB69C4F83D2C4CA6 /* PFCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFCloud.h; sourceTree = "<group>"; };
+		2D10CFA9CE3F57DCE5394ABB03BDB26B /* PFQueryTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFQueryTableViewController.h; path = ParseUI/Classes/QueryTableViewController/PFQueryTableViewController.h; sourceTree = "<group>"; };
+		2EF39C00E012AAB04BEAF58275965D13 /* PFACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFACL.h; sourceTree = "<group>"; };
+		3028A1B2E2207FD38FC0C98A286DB6D6 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		31972BA6D37716964875807B9791E49D /* PFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFConstants.h; sourceTree = "<group>"; };
+		380E577F958E78F4BE58EF1DEB94758A /* PFSignUpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFSignUpViewController.m; path = ParseUI/Classes/SignUpViewController/PFSignUpViewController.m; sourceTree = "<group>"; };
+		39A970C2051BBA220414DE24FDB2D585 /* PFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		3B55CF4CBC33EE4E0A99F1F0A283BADF /* libParseLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libParseLib.a; sourceTree = "<group>"; };
+		3EB76D4AE3CAAC9DA06ABAAC24303BF0 /* PFImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImageCache.h; path = ParseUI/Classes/Internal/PFImageCache.h; sourceTree = "<group>"; };
+		3F19FE2679DCFDEEEA764A40627FD9C6 /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
+		3FE45242DCC50152644B8ADEB0B55696 /* PFTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTextField.m; path = ParseUI/Classes/Views/PFTextField.m; sourceTree = "<group>"; };
+		41A19E36E42C346AEE6DB54F89CD8BEC /* PFUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFUser.h; sourceTree = "<group>"; };
+		44D04CAAC3FD920D852163C468909C28 /* PFPurchaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPurchaseTableViewCell.h; path = ParseUI/Classes/Cells/PFPurchaseTableViewCell.h; sourceTree = "<group>"; };
+		45B3F22A0EC55182E176066CA2A2963F /* Parse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parse-prefix.pch"; sourceTree = "<group>"; };
+		45B3FAB0420852FDC3ED0BE313A3EE0B /* PFSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFSession.h; sourceTree = "<group>"; };
+		4B8F7A70B3A3A1833B0B0C058F1C5B34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4CAC29AE148CD6C05CFE14E07FDAA7D1 /* Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bolts-prefix.pch"; sourceTree = "<group>"; };
+		4E40FBD9E9F3390C9A043035DB6BDDF6 /* PFQueryTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFQueryTableViewController.m; path = ParseUI/Classes/QueryTableViewController/PFQueryTableViewController.m; sourceTree = "<group>"; };
+		4E5E8027A14D6E5D5BFD55ABFD1601F0 /* PFImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImage.m; path = ParseUI/Classes/Internal/Extensions/PFImage.m; sourceTree = "<group>"; };
+		51979E4A0929E509BD52B30749E84685 /* PFQueryCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFQueryCollectionViewController.h; path = ParseUI/Classes/QueryCollectionViewController/PFQueryCollectionViewController.h; sourceTree = "<group>"; };
+		52B2BC8D6879E38DA438CEA542039FD7 /* PFAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFAlertView.m; path = ParseUI/Classes/Internal/Extensions/PFAlertView.m; sourceTree = "<group>"; };
+		54784447963996CA7BC943B876246BEB /* PFPurchaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFPurchaseTableViewCell.m; path = ParseUI/Classes/Cells/PFPurchaseTableViewCell.m; sourceTree = "<group>"; };
+		5516CFB660210FBF56FED9DFC80ED5C0 /* PFImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImage.h; path = ParseUI/Classes/Internal/Extensions/PFImage.h; sourceTree = "<group>"; };
+		58A52610935F1689925F5F8A55DF7BD5 /* PFAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAlertView.h; path = ParseUI/Classes/Internal/Extensions/PFAlertView.h; sourceTree = "<group>"; };
+		5BF446936F95FE1CD63332E9F76827E7 /* PFTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTextField.h; path = ParseUI/Classes/Views/PFTextField.h; sourceTree = "<group>"; };
+		5D9176E50B709FB7C77069E62F77AEDA /* PFDismissButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDismissButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFDismissButton.h; sourceTree = "<group>"; };
+		5DB220F4A1605FC24FEA95E8EEB57C9F /* libBolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBolts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2418487D8A3CCBF79579C005FA6BA2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5ED7407638D786C4B4E7C3CFE5CECEF1 /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
+		61429F475AB3D907C0FA923F5161941A /* PFActivityIndicatorTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActivityIndicatorTableViewCell.h; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorTableViewCell.h; sourceTree = "<group>"; };
+		6222C08DFB2B7FF278B704F8E0EB2781 /* PFCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFCollectionViewCell.m; path = ParseUI/Classes/Cells/PFCollectionViewCell.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		676578FD7D5AA36475A3054700D00365 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		67BB3CBCFBF8AA48CE62F6DD0AC0B746 /* PFRect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFRect.m; path = ParseUI/Classes/Internal/Extensions/PFRect.m; sourceTree = "<group>"; };
+		682E4AA110701D9701F06EE02D39E3F6 /* PFTextButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTextButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFTextButton.m; sourceTree = "<group>"; };
+		68A1C6C96EA66918946EBD6F98274E20 /* PFTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTableViewCell.m; path = ParseUI/Classes/Cells/PFTableViewCell.m; sourceTree = "<group>"; };
+		68A95B37A19F3F2974D5C0478D4ACBBB /* PFLogInView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLogInView.m; path = ParseUI/Classes/LogInViewController/PFLogInView.m; sourceTree = "<group>"; };
+		6C2A58850F0831D58023B91AFD0D7F83 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		6ED024CB9B89C30423AE92FB97099402 /* ParseUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParseUI.h; path = ParseUI/Other/ParseUI.h; sourceTree = "<group>"; };
+		733796BCCCD89A54BC3AECAB52E8DD0A /* PFProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFProduct.h; sourceTree = "<group>"; };
+		735480EF3832E77E8D8CC22E897E3D95 /* PFPrimaryButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFPrimaryButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFPrimaryButton.m; sourceTree = "<group>"; };
+		737AA3ED708243FA4ADA8FFBC59FDFD9 /* PFLogInViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLogInViewController.h; path = ParseUI/Classes/LogInViewController/PFLogInViewController.h; sourceTree = "<group>"; };
+		73846FA9540F81DA7D3F010FFC1A4AC7 /* ParseUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParseUI.xcconfig; sourceTree = "<group>"; };
+		7419BBE4B6FBA16E5FC031F4D8307B18 /* PFActivityIndicatorCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActivityIndicatorCollectionReusableView.h; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorCollectionReusableView.h; sourceTree = "<group>"; };
+		756EFBE1112954F6110EA7B715A3CE59 /* PFActivityIndicatorTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActivityIndicatorTableViewCell.m; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorTableViewCell.m; sourceTree = "<group>"; };
+		760740BF413A3AA2D53EC6BB326AF09F /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		76F85182F7CB6197A21493DD2A0AD80D /* PFSignUpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSignUpViewController.h; path = ParseUI/Classes/SignUpViewController/PFSignUpViewController.h; sourceTree = "<group>"; };
+		77DBE42A8D8812F802084B0B4186C108 /* PFPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFPurchase.h; sourceTree = "<group>"; };
+		7D2E01A5997A33AF77EBB852E20D40DD /* PF_Twitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PF_Twitter.h; sourceTree = "<group>"; };
+		7DBBEC099B5CDE8756B25B5C6BDDE05F /* PFConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFConfig.h; sourceTree = "<group>"; };
+		82393442AD8E017C0926787730753D11 /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
+		824F8C8F60684B4956F8BE45CE64358C /* PFActionButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActionButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFActionButton.m; sourceTree = "<group>"; };
+		84330896F454F62BDD9F4C4C2493658B /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = ParseUI/Resources/Localization/en.lproj; sourceTree = "<group>"; };
+		8697D567AC96161039C96DC35082D09F /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		86BFF971E867E8EF2E38AF2F8F75256F /* libParseUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libParseUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		882E72B2573BA169C6923023FB7505AB /* PFResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFResources.h; path = ParseUI/Generated/PFResources.h; sourceTree = "<group>"; };
+		89B8E647EBE8F6E6D5DC28FA467D5BA7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		8F79A0F3F9CDF4CCA7F768E83480F9B2 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		903EAC16C628295C0B0CEF606D197E1B /* ParseUI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ParseUI-Private.xcconfig"; sourceTree = "<group>"; };
+		92D8A6718EC174A69327B4F83039B297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		94C0C841F25194FC96C94F92CBCE66F4 /* PFLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLocalization.h; path = ParseUI/Classes/Internal/PFLocalization.h; sourceTree = "<group>"; };
+		9536F6A67F4804BF25375726F476D9E2 /* PFImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFImageView.m; path = ParseUI/Classes/Views/PFImageView.m; sourceTree = "<group>"; };
+		9849F718327A6CE33684F89E3C3C522E /* PFLogInViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLogInViewController.m; path = ParseUI/Classes/LogInViewController/PFLogInViewController.m; sourceTree = "<group>"; };
+		998C42CBB08F2BF4B0935D0F3FD59BE1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		99A6C19FDE76CAD6DE11471F32367829 /* PFActivityIndicatorCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFActivityIndicatorCollectionReusableView.m; path = ParseUI/Classes/Internal/Cells/PFActivityIndicatorCollectionReusableView.m; sourceTree = "<group>"; };
+		9C94819C17764157F1AFA17F68DE8EF0 /* PFRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRect.h; path = ParseUI/Classes/Internal/Extensions/PFRect.h; sourceTree = "<group>"; };
+		9D76C91E240A168CEF30966EC486714F /* PFCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFCollectionViewCell.h; path = ParseUI/Classes/Cells/PFCollectionViewCell.h; sourceTree = "<group>"; };
+		A1E172F3C24126F5F7825EEEC49F9B88 /* PFLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLoadingView.h; path = ParseUI/Classes/Internal/Views/PFLoadingView.h; sourceTree = "<group>"; };
+		A89E54D6B2DE62573870B624F70E2E0E /* PFProductTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFProductTableViewController.h; path = ParseUI/Classes/ProductTableViewController/PFProductTableViewController.h; sourceTree = "<group>"; };
+		A8BD25FDC69542337B55CCF4D97CB5D8 /* PFProductTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFProductTableViewController.m; path = ParseUI/Classes/ProductTableViewController/PFProductTableViewController.m; sourceTree = "<group>"; };
+		AA5C2141ED93906D4527914A4BD0EEBE /* PFTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTableViewCell.h; path = ParseUI/Classes/Cells/PFTableViewCell.h; sourceTree = "<group>"; };
+		AECA4245A5C9C4E2840B039BC9655666 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		B11E278FBBDEAD284A7D3D453B3D0FD4 /* PFColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFColor.m; path = ParseUI/Classes/Internal/Extensions/PFColor.m; sourceTree = "<group>"; };
+		B4D0BBA8416065F6CDEF97AAFEA54770 /* ParseUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParseUI-prefix.pch"; sourceTree = "<group>"; };
+		B4DF293D229617719D62E8D204133B3C /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
+		B6B8E91911DAFFE8AD338E3B03822540 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		B839B893A4B8DE832B68CF60ED6277DC /* PFSignUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFSignUpView.h; path = ParseUI/Classes/SignUpViewController/PFSignUpView.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB497D7F0C1EA2F75DFDCDE14906AD30 /* PFActionButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFActionButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFActionButton.h; sourceTree = "<group>"; };
+		BC6C36B3737832B932BCB24E60FBA426 /* PFInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFInstallation.h; sourceTree = "<group>"; };
+		BE77B636EA5F02A7683C725599E42D96 /* Parse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parse-dummy.m"; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3A4D515667787C34B75A2F854CAB050 /* PFSignUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFSignUpView.m; path = ParseUI/Classes/SignUpViewController/PFSignUpView.m; sourceTree = "<group>"; };
+		C44E52E83B786124ADB97FD2E0085748 /* ParseUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParseUIConstants.h; path = ParseUI/Other/ParseUIConstants.h; sourceTree = "<group>"; };
+		C50BACC0DF6BED19C527B0EC9CD8D135 /* PFDismissButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFDismissButton.m; path = ParseUI/Classes/Internal/Views/Buttons/PFDismissButton.m; sourceTree = "<group>"; };
+		C55D2DA6E84F4438C09D47735E458328 /* PFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFQuery.h; sourceTree = "<group>"; };
+		C712E53C232937EC02D377CAD5B28AF4 /* PFObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PFObject+Subclass.h"; sourceTree = "<group>"; };
+		C7F4DA32EDCCC4816F64C5B97CBBD5FA /* PFLogInView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFLogInView.h; path = ParseUI/Classes/LogInViewController/PFLogInView.h; sourceTree = "<group>"; };
+		C81A9DC44BB6CA9CC47DA60B7DF2A8BE /* PFTextButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTextButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFTextButton.h; sourceTree = "<group>"; };
+		CEB982121B108C9E8F14E4A824DBD2A1 /* PFRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFRole.h; sourceTree = "<group>"; };
+		D317AA1599D8D7A5BAA24A54E9C56FA1 /* Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bolts.xcconfig; sourceTree = "<group>"; };
+		D47A0031A8F925F02F30487073E46BB6 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		D7C28A68F068065911D2B603A3781484 /* PFColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFColor.h; path = ParseUI/Classes/Internal/Extensions/PFColor.h; sourceTree = "<group>"; };
+		DA05EC3D049D639093A9FC034F74D2AD /* PFAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFAnalytics.h; sourceTree = "<group>"; };
+		DD24C1BEF9EB62F6CDAE2E1D8FF4E883 /* PFLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFLoadingView.m; path = ParseUI/Classes/Internal/Views/PFLoadingView.m; sourceTree = "<group>"; };
+		DF856C84076DDF0FB2305662670CCE28 /* Parse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parse.xcconfig; sourceTree = "<group>"; };
+		E02138711AA40C4799BAA69302D4CE76 /* Parse-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Parse-Private.xcconfig"; sourceTree = "<group>"; };
+		E10D38F943D13045162CA49DFB26ABC0 /* PFResources.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFResources.m; path = ParseUI/Generated/PFResources.m; sourceTree = "<group>"; };
+		EA60635EE93D4306159FDE0EA05D0FBA /* PFImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFImageView.h; path = ParseUI/Classes/Views/PFImageView.h; sourceTree = "<group>"; };
+		EACA9BB742F1617CDA9D04FB2A0A9573 /* PFRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFRelation.h; sourceTree = "<group>"; };
+		EB0B4662F7BEC287D08817E88FBC4A52 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		EC79964D98B039C5A1CA45F79446321F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECDC67E11AE7B726B6649551DA5CE3D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFF4C59695AA83D0F2ABDFD29423639 /* PFNullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFNullability.h; sourceTree = "<group>"; };
+		F0B29E442D49F7150A24C5D6626D2967 /* Parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
+		F0E9C4040A48097B765739A28A113FAC /* PFSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFSubclassing.h; sourceTree = "<group>"; };
+		F2D6C1521ED239F7D8E53F64511DA6BF /* PFFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFFile.h; sourceTree = "<group>"; };
+		F50A243919C812D9C642E0175EE68F58 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		F51C4B70C4EFB81F85425673FE1DB374 /* PFPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFPush.h; sourceTree = "<group>"; };
+		F9779A8CC862557B16508E5F061CB322 /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
+		FC68F2A982D89B06CCBEA0EC221C1E2C /* PFPrimaryButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPrimaryButton.h; path = ParseUI/Classes/Internal/Views/Buttons/PFPrimaryButton.h; sourceTree = "<group>"; };
+		FED2CF0182621DD43A1B1ABBA593C5C6 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
+		FF2AAA1E6118CAA76A210B937552AD66 /* PFObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PFObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B3C13E561C7FB9967B346DF63B08CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C0AE06CDE086C007446B94F58B1762 /* AudioToolbox.framework in Frameworks */,
+				A11ECE59B1F5CF01A2F352D72C31FC18 /* CFNetwork.framework in Frameworks */,
+				9F5506BCA798D7102564461C1BC73861 /* CoreGraphics.framework in Frameworks */,
+				B7A96E4B33368BD1EDDBBD7B3A378462 /* CoreLocation.framework in Frameworks */,
+				22226587D07869A538559024FF68DD20 /* Foundation.framework in Frameworks */,
+				2D63E5431564118651FDD76A0959852D /* QuartzCore.framework in Frameworks */,
+				F981AD5FBDF6706D4B1BC7D6B1661823 /* Security.framework in Frameworks */,
+				4C7DF999300DA0BAF0DEFB881E6AA317 /* StoreKit.framework in Frameworks */,
+				4202DEF1B9A560EBDE329F9BA7E67CEA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87576A3E45A1BC38374D7D1B2FE6868B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8B2B13AF0448DC82B0CD374B19A7BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D39851D3F60FE699F5C0488D86F00DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B6650469DDE9A6ADB2BCC4159F0728 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF07E529C2FA6AA514CC010E68E14EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83582086D94C1192A8FE48E00D4D01B1 /* CoreGraphics.framework in Frameworks */,
+				BD3223B52B2DA388951AE52AFC2B2EF1 /* Foundation.framework in Frameworks */,
+				2F42EB3CB7D4E5D86067A5CD42CF8790 /* QuartzCore.framework in Frameworks */,
+				E94D745BB3138053485681273741F95E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030467BA30F8F7111BB252DA08A0E488 /* ParseUI */ = {
+			isa = PBXGroup;
+			children = (
+				BB497D7F0C1EA2F75DFDCDE14906AD30 /* PFActionButton.h */,
+				824F8C8F60684B4956F8BE45CE64358C /* PFActionButton.m */,
+				7419BBE4B6FBA16E5FC031F4D8307B18 /* PFActivityIndicatorCollectionReusableView.h */,
+				99A6C19FDE76CAD6DE11471F32367829 /* PFActivityIndicatorCollectionReusableView.m */,
+				61429F475AB3D907C0FA923F5161941A /* PFActivityIndicatorTableViewCell.h */,
+				756EFBE1112954F6110EA7B715A3CE59 /* PFActivityIndicatorTableViewCell.m */,
+				58A52610935F1689925F5F8A55DF7BD5 /* PFAlertView.h */,
+				52B2BC8D6879E38DA438CEA542039FD7 /* PFAlertView.m */,
+				9D76C91E240A168CEF30966EC486714F /* PFCollectionViewCell.h */,
+				6222C08DFB2B7FF278B704F8E0EB2781 /* PFCollectionViewCell.m */,
+				D7C28A68F068065911D2B603A3781484 /* PFColor.h */,
+				B11E278FBBDEAD284A7D3D453B3D0FD4 /* PFColor.m */,
+				5D9176E50B709FB7C77069E62F77AEDA /* PFDismissButton.h */,
+				C50BACC0DF6BED19C527B0EC9CD8D135 /* PFDismissButton.m */,
+				5516CFB660210FBF56FED9DFC80ED5C0 /* PFImage.h */,
+				4E5E8027A14D6E5D5BFD55ABFD1601F0 /* PFImage.m */,
+				3EB76D4AE3CAAC9DA06ABAAC24303BF0 /* PFImageCache.h */,
+				044FD00D4633BDACEDE456F8A59F0E15 /* PFImageCache.m */,
+				EA60635EE93D4306159FDE0EA05D0FBA /* PFImageView.h */,
+				9536F6A67F4804BF25375726F476D9E2 /* PFImageView.m */,
+				A1E172F3C24126F5F7825EEEC49F9B88 /* PFLoadingView.h */,
+				DD24C1BEF9EB62F6CDAE2E1D8FF4E883 /* PFLoadingView.m */,
+				94C0C841F25194FC96C94F92CBCE66F4 /* PFLocalization.h */,
+				C7F4DA32EDCCC4816F64C5B97CBBD5FA /* PFLogInView.h */,
+				68A95B37A19F3F2974D5C0478D4ACBBB /* PFLogInView.m */,
+				737AA3ED708243FA4ADA8FFBC59FDFD9 /* PFLogInViewController.h */,
+				9849F718327A6CE33684F89E3C3C522E /* PFLogInViewController.m */,
+				FC68F2A982D89B06CCBEA0EC221C1E2C /* PFPrimaryButton.h */,
+				735480EF3832E77E8D8CC22E897E3D95 /* PFPrimaryButton.m */,
+				A89E54D6B2DE62573870B624F70E2E0E /* PFProductTableViewController.h */,
+				A8BD25FDC69542337B55CCF4D97CB5D8 /* PFProductTableViewController.m */,
+				44D04CAAC3FD920D852163C468909C28 /* PFPurchaseTableViewCell.h */,
+				54784447963996CA7BC943B876246BEB /* PFPurchaseTableViewCell.m */,
+				51979E4A0929E509BD52B30749E84685 /* PFQueryCollectionViewController.h */,
+				1964B3D6C47C0CF5903BBBE9155AA8C7 /* PFQueryCollectionViewController.m */,
+				2D10CFA9CE3F57DCE5394ABB03BDB26B /* PFQueryTableViewController.h */,
+				4E40FBD9E9F3390C9A043035DB6BDDF6 /* PFQueryTableViewController.m */,
+				9C94819C17764157F1AFA17F68DE8EF0 /* PFRect.h */,
+				67BB3CBCFBF8AA48CE62F6DD0AC0B746 /* PFRect.m */,
+				882E72B2573BA169C6923023FB7505AB /* PFResources.h */,
+				E10D38F943D13045162CA49DFB26ABC0 /* PFResources.m */,
+				B839B893A4B8DE832B68CF60ED6277DC /* PFSignUpView.h */,
+				C3A4D515667787C34B75A2F854CAB050 /* PFSignUpView.m */,
+				76F85182F7CB6197A21493DD2A0AD80D /* PFSignUpViewController.h */,
+				380E577F958E78F4BE58EF1DEB94758A /* PFSignUpViewController.m */,
+				AA5C2141ED93906D4527914A4BD0EEBE /* PFTableViewCell.h */,
+				68A1C6C96EA66918946EBD6F98274E20 /* PFTableViewCell.m */,
+				C81A9DC44BB6CA9CC47DA60B7DF2A8BE /* PFTextButton.h */,
+				682E4AA110701D9701F06EE02D39E3F6 /* PFTextButton.m */,
+				5BF446936F95FE1CD63332E9F76827E7 /* PFTextField.h */,
+				3FE45242DCC50152644B8ADEB0B55696 /* PFTextField.m */,
+				6ED024CB9B89C30423AE92FB97099402 /* ParseUI.h */,
+				C44E52E83B786124ADB97FD2E0085748 /* ParseUIConstants.h */,
+				A02B4C34BE28ACBFD297AF49D69E242A /* Resources */,
+				CD9243845AA83F0B95DCA302B92EF56E /* Support Files */,
+			);
+			path = ParseUI;
+			sourceTree = "<group>";
+		};
+		09AB77834CFB8934A0DA1D4C5800ACF8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C2A58850F0831D58023B91AFD0D7F83 /* AudioToolbox.framework */,
+				19A4D9FE8582DDBEEBD61BC6917CD710 /* CFNetwork.framework */,
+				1682ED412FB7BD65245E5BBA241EFA14 /* CoreGraphics.framework */,
+				89B8E647EBE8F6E6D5DC28FA467D5BA7 /* CoreLocation.framework */,
+				9453A3464E3BFB297D86C171071E0DB8 /* Foundation.framework */,
+				4B8F7A70B3A3A1833B0B0C058F1C5B34 /* QuartzCore.framework */,
+				998C42CBB08F2BF4B0935D0F3FD59BE1 /* Security.framework */,
+				EC79964D98B039C5A1CA45F79446321F /* StoreKit.framework */,
+				033A3426A63D8D118E2BE7FCAE79C800 /* SystemConfiguration.framework */,
+				92D8A6718EC174A69327B4F83039B297 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		611DD03EABCA3915F9FDFE541871D5AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF856C84076DDF0FB2305662670CCE28 /* Parse.xcconfig */,
+				E02138711AA40C4799BAA69302D4CE76 /* Parse-Private.xcconfig */,
+				BE77B636EA5F02A7683C725599E42D96 /* Parse-dummy.m */,
+				45B3F22A0EC55182E176066CA2A2963F /* Parse-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parse";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
+				88803BC44A36D41CF25E80C2C441353E /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		806F6350061C48A0DC33442E0EEFCBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B55CF4CBC33EE4E0A99F1F0A283BADF /* libParseLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09AB77834CFB8934A0DA1D4C5800ACF8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88803BC44A36D41CF25E80C2C441353E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5841B29E5135A1F79F40BA38416488A /* Bolts */,
+				92655DE346DC3E2F6C3CBB0A8557C876 /* Parse */,
+				030467BA30F8F7111BB252DA08A0E488 /* ParseUI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92655DE346DC3E2F6C3CBB0A8557C876 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				D47A0031A8F925F02F30487073E46BB6 /* Empty.m */,
+				2EF39C00E012AAB04BEAF58275965D13 /* PFACL.h */,
+				DA05EC3D049D639093A9FC034F74D2AD /* PFAnalytics.h */,
+				091750532A12A4F233EA98A9430D5064 /* PFAnonymousUtils.h */,
+				261123B9AC1FCE6DFB69C4F83D2C4CA6 /* PFCloud.h */,
+				7DBBEC099B5CDE8756B25B5C6BDDE05F /* PFConfig.h */,
+				31972BA6D37716964875807B9791E49D /* PFConstants.h */,
+				F2D6C1521ED239F7D8E53F64511DA6BF /* PFFile.h */,
+				079CEC81217FDD14187B38EF11A4C7BA /* PFGeoPoint.h */,
+				BC6C36B3737832B932BCB24E60FBA426 /* PFInstallation.h */,
+				39A970C2051BBA220414DE24FDB2D585 /* PFNetworkActivityIndicatorManager.h */,
+				EEFF4C59695AA83D0F2ABDFD29423639 /* PFNullability.h */,
+				FF2AAA1E6118CAA76A210B937552AD66 /* PFObject.h */,
+				C712E53C232937EC02D377CAD5B28AF4 /* PFObject+Subclass.h */,
+				733796BCCCD89A54BC3AECAB52E8DD0A /* PFProduct.h */,
+				77DBE42A8D8812F802084B0B4186C108 /* PFPurchase.h */,
+				F51C4B70C4EFB81F85425673FE1DB374 /* PFPush.h */,
+				C55D2DA6E84F4438C09D47735E458328 /* PFQuery.h */,
+				EACA9BB742F1617CDA9D04FB2A0A9573 /* PFRelation.h */,
+				CEB982121B108C9E8F14E4A824DBD2A1 /* PFRole.h */,
+				45B3FAB0420852FDC3ED0BE313A3EE0B /* PFSession.h */,
+				F0E9C4040A48097B765739A28A113FAC /* PFSubclassing.h */,
+				011AD5709D4F6FF70CECD05E64CEEABB /* PFTwitterUtils.h */,
+				41A19E36E42C346AEE6DB54F89CD8BEC /* PFUser.h */,
+				7D2E01A5997A33AF77EBB852E20D40DD /* PF_Twitter.h */,
+				F0B29E442D49F7150A24C5D6626D2967 /* Parse.h */,
+				806F6350061C48A0DC33442E0EEFCBFB /* Frameworks */,
+				611DD03EABCA3915F9FDFE541871D5AE /* Support Files */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				676578FD7D5AA36475A3054700D00365 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				5E2418487D8A3CCBF79579C005FA6BA2 /* Pods.debug.xcconfig */,
+				AECA4245A5C9C4E2840B039BC9655666 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9E08B47B1A9C8E3594F9BE908565DCCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D317AA1599D8D7A5BAA24A54E9C56FA1 /* Bolts.xcconfig */,
+				0209A22CA5085E14867E0114D5C851A7 /* Bolts-Private.xcconfig */,
+				08177380F3F3A1A7A2475E004863C73A /* Bolts-dummy.m */,
+				4CAC29AE148CD6C05CFE14E07FDAA7D1 /* Bolts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bolts";
+			sourceTree = "<group>";
+		};
+		A02B4C34BE28ACBFD297AF49D69E242A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84330896F454F62BDD9F4C4C2493658B /* en.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB220F4A1605FC24FEA95E8EEB57C9F /* libBolts.a */,
+				08C698FABC0FB69A273C361B9AA9C6E3 /* libParse.a */,
+				86BFF971E867E8EF2E38AF2F8F75256F /* libParseUI.a */,
+				ECDC67E11AE7B726B6649551DA5CE3D5 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9243845AA83F0B95DCA302B92EF56E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73846FA9540F81DA7D3F010FFC1A4AC7 /* ParseUI.xcconfig */,
+				903EAC16C628295C0B0CEF606D197E1B /* ParseUI-Private.xcconfig */,
+				0CAFC1FF786D727D184DE2045930E91D /* ParseUI-dummy.m */,
+				B4D0BBA8416065F6CDEF97AAFEA54770 /* ParseUI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ParseUI";
+			sourceTree = "<group>";
+		};
+		CE257301A046AB52DF02D16865CD3D14 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F50A243919C812D9C642E0175EE68F58 /* BFCancellationToken.h */,
+				5ED7407638D786C4B4E7C3CFE5CECEF1 /* BFCancellationToken.m */,
+				3028A1B2E2207FD38FC0C98A286DB6D6 /* BFCancellationTokenRegistration.h */,
+				8697D567AC96161039C96DC35082D09F /* BFCancellationTokenRegistration.m */,
+				B6B8E91911DAFFE8AD338E3B03822540 /* BFCancellationTokenSource.h */,
+				760740BF413A3AA2D53EC6BB326AF09F /* BFCancellationTokenSource.m */,
+				B4DF293D229617719D62E8D204133B3C /* BFExecutor.h */,
+				F9779A8CC862557B16508E5F061CB322 /* BFExecutor.m */,
+				FED2CF0182621DD43A1B1ABBA593C5C6 /* BFTask.h */,
+				0B63B30B03ADCC6EA11BFE94D44E71FA /* BFTask.m */,
+				EB0B4662F7BEC287D08817E88FBC4A52 /* BFTaskCompletionSource.h */,
+				8F79A0F3F9CDF4CCA7F768E83480F9B2 /* BFTaskCompletionSource.m */,
+				135CBA22F464C9331F34747146FE4C2E /* Bolts.h */,
+				82393442AD8E017C0926787730753D11 /* Bolts.m */,
+				3F19FE2679DCFDEEEA764A40627FD9C6 /* BoltsVersion.h */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5841B29E5135A1F79F40BA38416488A /* Bolts */ = {
+			isa = PBXGroup;
+			children = (
+				9E08B47B1A9C8E3594F9BE908565DCCF /* Support Files */,
+				CE257301A046AB52DF02D16865CD3D14 /* Tasks */,
+			);
+			path = Bolts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17A61323C3370DD4C9AB8FC90B2AA6F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339A1B70CF4FEE1D0780CFDF33AB73D8 /* PFActionButton.h in Headers */,
+				CE6E82F7868356AD411B4BB422A54184 /* PFActivityIndicatorCollectionReusableView.h in Headers */,
+				B1B8164F3147590FD32C651723A04AEC /* PFActivityIndicatorTableViewCell.h in Headers */,
+				7C53ACD5005575D435414EDDC6AA3EA2 /* PFAlertView.h in Headers */,
+				B7A4B107AE4617137F0F8D764911AFC4 /* PFCollectionViewCell.h in Headers */,
+				4F2EEFADB59CCB5CC7D58BCBB676C5F1 /* PFColor.h in Headers */,
+				8AA68EF8C8B6050B33E54673A441C4C5 /* PFDismissButton.h in Headers */,
+				A1CC5E90350BD42EB3FDDA6BE4B90A95 /* PFImage.h in Headers */,
+				B6F3FD14FEB89F09C57C0E3C36AD1D29 /* PFImageCache.h in Headers */,
+				3873150245920AD365A40ABA60CE1622 /* PFImageView.h in Headers */,
+				11B20B9A187AC9F8BF0B8B55458BE6BD /* PFLoadingView.h in Headers */,
+				FAF890D6533CC9B8E76DACE65CA51F31 /* PFLocalization.h in Headers */,
+				DCC0B63649FEF688CFDFA1ADF62E4C3F /* PFLogInView.h in Headers */,
+				21A42E6428CE5239BE0DF0952A2556EF /* PFLogInViewController.h in Headers */,
+				1362C59E0A43D39C1122670F4B1B8E6E /* PFPrimaryButton.h in Headers */,
+				674E5BDF5B0BEC54F966C58778FE2D24 /* PFProductTableViewController.h in Headers */,
+				A93928FECC153CE325BF8B35842B19D5 /* PFPurchaseTableViewCell.h in Headers */,
+				2A98933A06EB00B5781CE4D543F9B652 /* PFQueryCollectionViewController.h in Headers */,
+				5F9C0707952131300B6054F3A9CB264A /* PFQueryTableViewController.h in Headers */,
+				7CEFBE5A1C5C34BA897592CC5C5E234E /* PFRect.h in Headers */,
+				01B3EC0285AD04E5269238AEA04E9820 /* PFResources.h in Headers */,
+				A185B321154A7164E6A8BC4F6211716A /* PFSignUpView.h in Headers */,
+				B102F0985DE4099C1EE114518D9B7D10 /* PFSignUpViewController.h in Headers */,
+				CF33C48C38209F1C9F133A6C57A5195C /* PFTableViewCell.h in Headers */,
+				5CE4B89DFF35329E2A1DA0EE36153887 /* PFTextButton.h in Headers */,
+				F037D0DB9821AD09EEE094D85F91DF63 /* PFTextField.h in Headers */,
+				A763AD3912F16D22D28EA6AAE7B7D87C /* ParseUI.h in Headers */,
+				E9D44E77CBEC70BE5578B4641E2341A7 /* ParseUIConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A091343A8A8BE50980468CAF0FAD145B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10DFE47F4D37F7A6B4864C0A810C523F /* BFCancellationToken.h in Headers */,
+				A87B10E197AD1A5F30F7640495A36FFB /* BFCancellationTokenRegistration.h in Headers */,
+				D445D5A2A8413D0BECCB2DFA36FE50DA /* BFCancellationTokenSource.h in Headers */,
+				6891ED19F7A4CBB3563996CBE511560F /* BFExecutor.h in Headers */,
+				E8AADA729D4A0ADF275161E000ABBAD7 /* BFTask.h in Headers */,
+				A024909CE52E896DC6AEA031616969B9 /* BFTaskCompletionSource.h in Headers */,
+				91BAFDD7E9D2A99B2D3E57D91DCB84A4 /* Bolts.h in Headers */,
+				993C12BBE12041911489E59725BCB7A0 /* BoltsVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DE40B29095196FE6A1571ABFEA4E95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6F0AE0BD41C92B641AF0813C0ACAA9 /* PFACL.h in Headers */,
+				2C3DF7F8C3CC971058EA2C8C6AEE658F /* PFAnalytics.h in Headers */,
+				FB4B66E8E0653494E358A786910C352F /* PFAnonymousUtils.h in Headers */,
+				39773D2507DB4900C7FF617EF459FEA0 /* PFCloud.h in Headers */,
+				ADF81D126EF53F98324A991F4A61544F /* PFConfig.h in Headers */,
+				78589E357FEB8D61AFA594EC9978E51E /* PFConstants.h in Headers */,
+				A5E63EEE0F6BB51E0C0AC9486E7153AE /* PFFile.h in Headers */,
+				318698457DC5326973F1187BDEC18BB1 /* PFGeoPoint.h in Headers */,
+				BC8E268D2E4DDCE3B9BE876469848078 /* PFInstallation.h in Headers */,
+				0E6BB022DD70BC1DC79E7115268A36E6 /* PFNetworkActivityIndicatorManager.h in Headers */,
+				A7C38333370D0690F3794B9A87F99DCE /* PFNullability.h in Headers */,
+				90962BB570778980E7EE64213C03EEAD /* PFObject+Subclass.h in Headers */,
+				BDCE1800C726F3C710A80275A4BC5B77 /* PFObject.h in Headers */,
+				B134A6F6168F3678A67D4115BBBBDBBC /* PFProduct.h in Headers */,
+				088B7B907BF59F7B1B39C8F2618BA700 /* PFPurchase.h in Headers */,
+				E9CC5942747D004C8D62E0E036A715BA /* PFPush.h in Headers */,
+				9600B79C344B88E24F20C6FF07A70B98 /* PFQuery.h in Headers */,
+				2A6B4BC8B751638CDD8EDED6D7203634 /* PFRelation.h in Headers */,
+				482239FEBAB5E6C473A3825939859C65 /* PFRole.h in Headers */,
+				2208BEAE3C01B541298F2C2611FF8AE2 /* PFSession.h in Headers */,
+				9E46011014F5364CF1B38F3193F6DDAA /* PFSubclassing.h in Headers */,
+				0F50CF7BDD27FE8199AB51DD57FA8F22 /* PFTwitterUtils.h in Headers */,
+				547B936ABB4F38BD8231A0B6CCA048ED /* PFUser.h in Headers */,
+				605AEAA13EDA2DC2583E7C5C0F2EBED5 /* PF_Twitter.h in Headers */,
+				B50CE258FC7E66ED8392CC1B67A04A0B /* Parse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26EFAD85681CE706250735D61ABD1E0F /* Bolts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245876CF6E084F826C95FA29DF5CF4A0 /* Build configuration list for PBXNativeTarget "Bolts" */;
+			buildPhases = (
+				3BF41673B95155C794D501E0D09960BD /* Sources */,
+				9D39851D3F60FE699F5C0488D86F00DE /* Frameworks */,
+				A091343A8A8BE50980468CAF0FAD145B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bolts;
+			productName = Bolts;
+			productReference = 5DB220F4A1605FC24FEA95E8EEB57C9F /* libBolts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D21F38768A4507B1850D575992EF267 /* Parse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF299059A98CB877F192B16D4204449 /* Build configuration list for PBXNativeTarget "Parse" */;
+			buildPhases = (
+				05729DEEDE4C543ACE6BAC57267908AB /* Sources */,
+				72B3C13E561C7FB9967B346DF63B08CF /* Frameworks */,
+				F8DE40B29095196FE6A1571ABFEA4E95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70CE0C6A1D750DABCB7CDA60BBF9D602 /* PBXTargetDependency */,
+			);
+			name = Parse;
+			productName = Parse;
+			productReference = 08C698FABC0FB69A273C361B9AA9C6E3 /* libParse.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		730EF52DB92B102107B40694B6378AC0 /* ParseUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81458D399D24DBF58A84940CA5BDF381 /* Build configuration list for PBXNativeTarget "ParseUI" */;
+			buildPhases = (
+				BE977F4CF55693F56BFD7BE8E60CBDD5 /* Sources */,
+				DF07E529C2FA6AA514CC010E68E14EF1 /* Frameworks */,
+				17A61323C3370DD4C9AB8FC90B2AA6F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE98F387A63809D7182DC04EC0193D3F /* PBXTargetDependency */,
+			);
+			name = ParseUI;
+			productName = ParseUI;
+			productReference = 86BFF971E867E8EF2E38AF2F8F75256F /* libParseUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A5E54941769F502C47E59574B295569 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA884A3F8F3328FA8065C0B638091293 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				4C4705D540DA89101EA6E5D161F6BCE5 /* Sources */,
+				87576A3E45A1BC38374D7D1B2FE6868B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE29FA370053997BBA59084DC442C95 /* PBXTargetDependency */,
+				7DB249B82AFD0E15C5D9D0C645996676 /* PBXTargetDependency */,
+				DD09E6443BC1194ACF4993D66ACD027C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = ECDC67E11AE7B726B6649551DA5CE3D5 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26EFAD85681CE706250735D61ABD1E0F /* Bolts */,
+				4D21F38768A4507B1850D575992EF267 /* Parse */,
+				730EF52DB92B102107B40694B6378AC0 /* ParseUI */,
+				8A5E54941769F502C47E59574B295569 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05729DEEDE4C543ACE6BAC57267908AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B783D2867DBCB17FAB94D8B70E22D6 /* Empty.m in Sources */,
+				F3ADEBCE0A69AA133C84D6D1CB98E9AD /* Parse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF41673B95155C794D501E0D09960BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF999063F38B1E98717839B2972026EC /* BFCancellationToken.m in Sources */,
+				5D5B514ADE7A8A25E50BE4A4AAA9C89D /* BFCancellationTokenRegistration.m in Sources */,
+				D6B959844748AB918B3501E2A23F210E /* BFCancellationTokenSource.m in Sources */,
+				E870B9283AF2441E82559015782E5029 /* BFExecutor.m in Sources */,
+				0C00D2320CDBE264D45EAA0F6752D3CE /* BFTask.m in Sources */,
+				5EF65F98614BC8E5FF2B244E21C02BC1 /* BFTaskCompletionSource.m in Sources */,
+				A606F5EF628CA066532DE702A38E3DB7 /* Bolts-dummy.m in Sources */,
+				7A80BF127EB07399B7591858692FE2A2 /* Bolts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4705D540DA89101EA6E5D161F6BCE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCF3142D9E0ED82EF46E2D6C3F11AF6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE977F4CF55693F56BFD7BE8E60CBDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301FF96F4837DFA15A92BC36A4D6172B /* PFActionButton.m in Sources */,
+				DE95C135DDEAB8067A2BFD9A97BEF555 /* PFActivityIndicatorCollectionReusableView.m in Sources */,
+				8AE1043F5D7E547D00C414649BA71A55 /* PFActivityIndicatorTableViewCell.m in Sources */,
+				18C11EF7F955499AB608ED9E9970E0C2 /* PFAlertView.m in Sources */,
+				6688785A01C6BCF7EBC1B57F74510C66 /* PFCollectionViewCell.m in Sources */,
+				1627E1EF63B651299D57DE1696373D93 /* PFColor.m in Sources */,
+				AAB19EC8489DB38E35B694404CE81256 /* PFDismissButton.m in Sources */,
+				1C47D89973A36D3CA3483CFF56C30C16 /* PFImage.m in Sources */,
+				908425D21A64071427C750080E6DB057 /* PFImageCache.m in Sources */,
+				A6A7E79A97402AD5CE718AAC692841BD /* PFImageView.m in Sources */,
+				81D7D9E06C9670422E5C6CB4FECE51C1 /* PFLoadingView.m in Sources */,
+				6261449B6F14E61F858B7FCD18F949FF /* PFLogInView.m in Sources */,
+				B693BF2C410BEC3EFE23C7005030FC1C /* PFLogInViewController.m in Sources */,
+				F943B7E9514351C3584E8EDB5EC8BE0E /* PFPrimaryButton.m in Sources */,
+				BFB6B5A03CA4A14910431A12A995A9DF /* PFProductTableViewController.m in Sources */,
+				51682315063307E5E04C71D699EBDD36 /* PFPurchaseTableViewCell.m in Sources */,
+				769C6CAC4DCBC57DFD6CE3A2D038CE15 /* PFQueryCollectionViewController.m in Sources */,
+				52D73198571D754AA6D3D92B0DE8091C /* PFQueryTableViewController.m in Sources */,
+				5917E23D89C778CBD5ABA62B2C554B6C /* PFRect.m in Sources */,
+				9801A2B86439F4369F940E425508B4B0 /* PFResources.m in Sources */,
+				D36D1EFAB311C50323FB3D67F9375094 /* PFSignUpView.m in Sources */,
+				F8DC3C90C4DC119D1D038F08E7919FDE /* PFSignUpViewController.m in Sources */,
+				1979037FCBD65ED5017287DC2D41301B /* PFTableViewCell.m in Sources */,
+				C1BA2785E6865EA4FC74D38479127C66 /* PFTextButton.m in Sources */,
+				FE86AB16243DFB25070A4F8E91FDB65E /* PFTextField.m in Sources */,
+				C99C9FE3D42ECC093402EB74A2BF9903 /* ParseUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70CE0C6A1D750DABCB7CDA60BBF9D602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			target = 26EFAD85681CE706250735D61ABD1E0F /* Bolts */;
+			targetProxy = F6F189CE7A5817DCC152F42BB5A97949 /* PBXContainerItemProxy */;
+		};
+		7DB249B82AFD0E15C5D9D0C645996676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parse;
+			target = 4D21F38768A4507B1850D575992EF267 /* Parse */;
+			targetProxy = 045FF2B0CCA185D99803009F38264D07 /* PBXContainerItemProxy */;
+		};
+		BE98F387A63809D7182DC04EC0193D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parse;
+			target = 4D21F38768A4507B1850D575992EF267 /* Parse */;
+			targetProxy = 7F9966C28D7B41F49FFD247CDD62C31A /* PBXContainerItemProxy */;
+		};
+		CDE29FA370053997BBA59084DC442C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bolts;
+			target = 26EFAD85681CE706250735D61ABD1E0F /* Bolts */;
+			targetProxy = 4C41CB7FC9E1EE8CBD5957AC5081567A /* PBXContainerItemProxy */;
+		};
+		DD09E6443BC1194ACF4993D66ACD027C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParseUI;
+			target = 730EF52DB92B102107B40694B6378AC0 /* ParseUI */;
+			targetProxy = D1374E36228A80C2E0BC563416A87D0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116A343C2362690612BEA5A0F6257200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02138711AA40C4799BAA69302D4CE76 /* Parse-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parse/Parse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25631F196B5A95454F2294A2DC4E12BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0209A22CA5085E14867E0114D5C851A7 /* Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		367B6A8FAAB2A93F5612FB657B597CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02138711AA40C4799BAA69302D4CE76 /* Parse-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Parse/Parse-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A38DFDF48F2CAF8538F3B9C0CE0A731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903EAC16C628295C0B0CEF606D197E1B /* ParseUI-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParseUI/ParseUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52177E8AA54F0F860FEA528AB3982DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECA4245A5C9C4E2840B039BC9655666 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A22CA87684A7801AB2ED581126A08DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903EAC16C628295C0B0CEF606D197E1B /* ParseUI-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ParseUI/ParseUI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4BE69BB361EEA53C68CBAD795A6A40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2418487D8A3CCBF79579C005FA6BA2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C8D8152B41762A29945793C3200B098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0209A22CA5085E14867E0114D5C851A7 /* Bolts-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bolts/Bolts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245876CF6E084F826C95FA29DF5CF4A0 /* Build configuration list for PBXNativeTarget "Bolts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25631F196B5A95454F2294A2DC4E12BC /* Debug */,
+				C8D8152B41762A29945793C3200B098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF299059A98CB877F192B16D4204449 /* Build configuration list for PBXNativeTarget "Parse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116A343C2362690612BEA5A0F6257200 /* Debug */,
+				367B6A8FAAB2A93F5612FB657B597CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81458D399D24DBF58A84940CA5BDF381 /* Build configuration list for PBXNativeTarget "ParseUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A38DFDF48F2CAF8538F3B9C0CE0A731 /* Debug */,
+				A22CA87684A7801AB2ED581126A08DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA884A3F8F3328FA8065C0B638091293 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE69BB361EEA53C68CBAD795A6A40A /* Debug */,
+				52177E8AA54F0F860FEA528AB3982DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
