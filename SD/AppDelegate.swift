@@ -17,22 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.setApplicationId("aMhpByDxxv9l8zdYg3OwEyzXQnbFPP0R3LFxqDN7", clientKey: "SZVl0ltc7T5aKZeuTa7EDcNsjrR8Mr6gq9KRKu7f")
-        var tableVC:ExploreViewController = ExploreViewController(className: "Explore")
-        tableVC.title = "Explore"
-        
-        UINavigationBar.appearance().tintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
-        UINavigationBar.appearance().barTintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
-        
-        
-        var navigationVC:UINavigationController = UINavigationController(rootViewController: tableVC)
-        
-        let frame = UIScreen.mainScreen().bounds
-        window = UIWindow(frame: frame)
-        
-        window!.rootViewController = navigationVC
-        window!.makeKeyAndVisible()
+//        var tableVC:ExploreViewController = ExploreViewController(className: "Cat")
+//        tableVC.title = "Explore"
+//        
+//        UINavigationBar.appearance().tintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
+//        UINavigationBar.appearance().barTintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
+//        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+//        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+//        
+//        
+//        var navigationVC:UINavigationController = UINavigationController(rootViewController: tableVC)
+//        
+//        let frame = UIScreen.mainScreen().bounds
+//        window = UIWindow(frame: frame)
+//        
+//        window!.rootViewController = navigationVC
+//        window!.makeKeyAndVisible()
 
                 
         return true

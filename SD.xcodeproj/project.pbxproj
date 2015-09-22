@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E232B91BAF1648003D6BC4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E232B81BAF1648003D6BC4 /* CalendarViewController.swift */; };
+		06E232C11BB01195003D6BC4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E232C01BB01195003D6BC4 /* CustomCell.swift */; };
+		06E232C31BB0130F003D6BC4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E232C21BB0130F003D6BC4 /* Event.swift */; };
 		06EC2AB01BA974FD008A9CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC2AAF1BA974FD008A9CFB /* AppDelegate.swift */; };
 		06EC2AB21BA974FD008A9CFB /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC2AB11BA974FD008A9CFB /* ExploreViewController.swift */; };
 		06EC2AB41BA974FD008A9CFB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC2AB31BA974FD008A9CFB /* SecondViewController.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E232B81BAF1648003D6BC4 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		06E232C01BB01195003D6BC4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		06E232C21BB0130F003D6BC4 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		06EC2AAA1BA974FD008A9CFB /* SD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EC2AAE1BA974FD008A9CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EC2AAF1BA974FD008A9CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +96,10 @@
 				06EC2AAF1BA974FD008A9CFB /* AppDelegate.swift */,
 				06EC2AB11BA974FD008A9CFB /* ExploreViewController.swift */,
 				06EC2AB31BA974FD008A9CFB /* SecondViewController.swift */,
+				06E232C01BB01195003D6BC4 /* CustomCell.swift */,
+				06E232C21BB0130F003D6BC4 /* Event.swift */,
 				06EC2AB51BA974FE008A9CFB /* Main.storyboard */,
+				06E232B81BAF1648003D6BC4 /* CalendarViewController.swift */,
 				06F9B3421BAC1308003CDE84 /* SD-Bridging-Header.h */,
 				06EC2AB81BA974FE008A9CFB /* Images.xcassets */,
 				06EC2ABA1BA974FE008A9CFB /* LaunchScreen.xib */,
@@ -276,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E232B91BAF1648003D6BC4 /* CalendarViewController.swift in Sources */,
 				06EC2AB41BA974FD008A9CFB /* SecondViewController.swift in Sources */,
+				06E232C11BB01195003D6BC4 /* CustomCell.swift in Sources */,
 				06EC2AB01BA974FD008A9CFB /* AppDelegate.swift in Sources */,
+				06E232C31BB0130F003D6BC4 /* Event.swift in Sources */,
 				06EC2AB21BA974FD008A9CFB /* ExploreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
